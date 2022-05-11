@@ -1,0 +1,81 @@
+body {
+  background-color: rgba(196, 209, 216, 0.356);
+}
+
+#main__title {
+  color: rgb(48, 45, 45);
+  font-family: 'Montserrat', serif;
+  font-size: 40px;
+}
+
+.container {
+  background-color: rgba(245, 233, 233, 0.699);
+  width: 60%;
+  padding: 25px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 24px rgb(24, 23, 23);
+  margin: 40px auto;
+  text-align: center;
+}
+
+.card_zero {
+  background-color: rgba(245, 233, 233, 0.699);
+  width: 60%;
+  padding: 25px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 24px rgb(24, 23, 23);
+  margin: 40px auto;
+  text-align: center;
+}
+
+.card {
+  background-color: rgba(245, 233, 233, 0.699);
+  width: 60%;
+  padding: 25px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 24px rgb(24, 23, 23);
+  margin: 40px auto;
+  text-align: center;
+}
+
+h3 {
+  color: rgb(71, 68, 68)
+}
+
+.img {
+  height: 100px;
+  width: 100px;
+}
+
+p {
+  font-size: 18px;
+
+}
+
+a {
+
+  font-size: 22px;
+  color:rgb(170, 39, 39)
+}
+
+.inline {
+  font-size: 20px;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+  @media (max-width: 540px) {
+    .container {
+      width: 300px;
+    }
+  }
